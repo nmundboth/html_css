@@ -1,0 +1,360 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	color: #000;
+	padding: 40px 150px 40px 150px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-transform: uppercase;
+}
+
+.fa-facebook{
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.fa-instagram{
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.fa-pinterest{
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.fa-youtube{
+	cursor: pointer;
+}
+
+i:hover{
+	color: #ccc;
+}
+
+.SIGN{
+	font-size: 15px;
+	float: right;
+	padding-right: 5px;
+	cursor: pointer;
+}
+
+.SUBSCRIBE{
+	font-size: 15px;
+	float: right;
+	cursor: pointer;
+}
+
+#logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	cursor: pointer;
+	padding-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 150px 10px 125px;
+    overflow: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+	border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #cccccc;
+    border-left: 0px;
+    background-color: lightsalmon;
+    border-radius: 0px;
+	z-index: 99;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	display: block;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: grey;
+}
+
+.fa-search{
+	padding: 13px 0px 0px 20px;
+	cursor: pointer;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 380px;
+    background-color: #4CAF50;
+}
+
+#comments {
+    top: 440px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 500px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 560px;
+    background-color: #555;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.video1 {
+    float: left;
+	width: 50%;
+    padding: 50px 0px;
+    height: 300px;
+}
+
+.video2 {
+    float: right;
+	width: 50%;
+    padding: 50px 0px 35px 70px;
+    height: 300px;
+}
+
+.video:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.video4 {
+    float: left;
+	width: 50%;
+    padding-top: 100px;
+    height: 300px;
+}
+
+.video5 {
+    float: right;
+	width: 50%;
+    padding: 100px 0px 35px 70px;
+    height: 300px;
+}
+
+.video3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  border-radius: 50%;
+  
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list {
+    float: left;
+    width: 25%;
+    color: blue;
+    cursor: pointer;
+	line-height: 200%;
+	padding: 0px 100px;
+}
+
+.recipes:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.video7 {
+    float: left;
+	width: 50%;
+    height: 300px;
+}
+
+.video8 {
+    float: right;
+	width: 50%;
+    padding: 0px 0px 35px 70px;
+    height: 300px;
+}
+
+.video6:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shareb{
+	padding-top: 380px;
+}
+
+#logo2{
+	float: left;
+	width: 30%;
+	cursor: pointer;
+}
+
+#tool{
+	float: right;
+	padding-top: 25px;
+}
+
+.ubar{
+	width: 100%;
+    padding: 0px 10px 70px 0px;
+    margin: 25px 0px 25px 0px;
+	background-color: #f1f1f1;
+}
+
+.fcolumn {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.footer {
+	margin: 0 -5px;
+}
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.search-container {
+  padding: 31px 50px 56px 50px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.sn{
+	padding-top: 50px;
+}
+
+.btn-group button {
+    background-color: #fff;
+    border: 1px solid black;
+    color: blue;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-style: underline;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #ccc;
+}
+
+.btn-grp button {
+    background-color: #fff;
+    border: 1px solid black;
+    color: #000;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-grp:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-grp button:hover {
+    background-color: #ccc;
+}
